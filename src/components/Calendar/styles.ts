@@ -32,7 +32,7 @@ export const CalendarActions = styled('div', {
 
     svg: {
       width: '$5',
-      heigth: '$5',
+      height: '$5',
     },
 
     '&:hover': {
@@ -83,7 +83,7 @@ export const CalendarDay = styled('button', {
     opacity: 0.4,
   },
 
-  '&:not(:disabled):hover:': {
+  '&:not(:disabled):hover': {
     background: '$gray500',
   },
 
